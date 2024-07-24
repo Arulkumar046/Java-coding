@@ -1,6 +1,6 @@
 //1.Scan a string and print all the characters until it meets lowercase character.
 import java.util.*;
-class main{
+class Java_excercise{
   public static void main(String[] args){
     Scanner n=new Scanner(System.in);
     String str=n.nextLine();
@@ -15,7 +15,7 @@ class main{
 
 //2.Given two strings, write a code to compare two strings to check and say equal or not. 
 import java.util.*;
-class main{
+class Java_excercise{
   public static void main(String[] args)
   {
     Scanner sc=new Scanner(System.in);
@@ -35,7 +35,7 @@ class main{
 
 //3.Write a program to implement strupr function.
 import java.util.*;
-class main{
+class Java_excercise{
   public static void main(String[] args){
     Scanner n=new Scanner(System.in);
     String d=n.nextLine();
@@ -44,7 +44,7 @@ class main{
 
 //4.Given number of elements , array and K value, Find the minimum number of Swaps required to get elements less then K and  greater elements on the right  side.
 import java.util.*;
-class main{
+class Java_excercise{
   public static void main(String[] args){
     Scanner n=new Scanner(System.in);
   int h=n.nextInt();
@@ -77,7 +77,7 @@ class main{
 
 //5.Write a program to check whether the given array of elements are in a Monotonic order or Not.
 import java.util.*;
-class main{
+class Java_excercise{
   public static void main(String[] args){
     Scanner n=new Scanner(System.in);
     int h=n.nextInt();
