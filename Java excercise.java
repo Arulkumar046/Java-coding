@@ -15,7 +15,7 @@ class main{
 
 //2.Given two strings, write a code to compare two strings to check and say equal or not. 
 import java.util.*;
-class Main{
+class main{
   public static void main(String[] args)
   {
     Scanner sc=new Scanner(System.in);
