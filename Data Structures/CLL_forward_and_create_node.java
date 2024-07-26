@@ -1,5 +1,5 @@
 import java.util.*;
-class CLL
+class CLL_forward_and_create_node
 {
   Node head;
   class Node
@@ -12,7 +12,7 @@ class CLL
       next=null;
     }
   }
-CLL()
+CLL_forward_and_create_node()
 {
   head=null;
 }
@@ -42,7 +42,7 @@ public void display()
 public static void main(String[]args)
 {
   Scanner obj=new Scanner(System.in);
-  CLL list=new CLL();
+  CLL_forward_and_create_node list=new CLL_forward_and_create_node();
   while(true)
   {
     int val=obj.nextInt();
