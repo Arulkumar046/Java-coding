@@ -1,5 +1,5 @@
 import java.util.*;
-class CLL
+class CLL_Insertmid_end
 {
     Node head;
     class Node
@@ -12,7 +12,7 @@ class CLL
             next=null;
         }
     }
-CLL()
+CLL_Insertmid_end()
 {
     head=null;
 }
@@ -51,7 +51,7 @@ public void insertend(int val) {
     public static void main(String[]args)
     {
         Scanner obj=new Scanner(System.in);
-        CLL list=new CLL();
+        CLL_Insertmid_end list=new CLL_Insertmid_end();
         int n=obj.nextInt();
         for(int i=0;i<n;i++)
         {
