@@ -1,5 +1,5 @@
 import java.util.*;
-class CLL_forward_and_create_node
+class CLL_fwd_crt
 {
   Node head;
   class Node
@@ -12,11 +12,11 @@ class CLL_forward_and_create_node
       next=null;
     }
   }
-CLL_forward_and_create_node()
+CLL_fwd_crt()
 {
   head=null;
 }
-public void sivaraj(int val)
+public void java(int val)
 {
   Node newnode=new Node(val);
   if(head==null)
@@ -42,13 +42,13 @@ public void display()
 public static void main(String[]args)
 {
   Scanner obj=new Scanner(System.in);
-  CLL_forward_and_create_node list=new CLL_forward_and_create_node();
+  CLL_fwd_crt list=new CLL_fwd_crt();
   while(true)
   {
     int val=obj.nextInt();
     if(val==-1)
     break;
-    list.sivaraj(val);
+    list.java(val);
   }
   list.display();
 }
