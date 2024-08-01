@@ -13,7 +13,7 @@ class multiplethread{
         }
     }
 }
-public class thread1 {
+public class Thread1 {
     public static void main(String[] args)
     {
         multiplethread obj=new multiplethread();
