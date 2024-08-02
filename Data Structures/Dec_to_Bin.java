@@ -1,5 +1,5 @@
  import java.util.*;
- class sample
+ class Dec_to_Bin
  {
    public static void gen(int n)
    {
