@@ -60,7 +60,7 @@ class scl
         System.out.println();
     }
 }
-class Sort
+class sort
 {
     public static void main(String[] args)
     {
