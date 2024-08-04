@@ -40,7 +40,7 @@ class SinglyCircular{
         }while(temp != head);
     }
 }
-class begininsert 
+class Begininsert 
 {
     public static void main(String [] args)
     {
