@@ -1,5 +1,5 @@
 import java.util.*;
-class Left_Rotation
+class Left_rotation
 {
   public static void main(String[]args)
   {
