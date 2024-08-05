@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class series implements Runnable 
+class Series implements Runnable 
 {
   int limit;
   public series(int limit)
