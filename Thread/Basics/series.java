@@ -2,7 +2,7 @@ import java.util.Scanner;
 class series implements Runnable 
 {
   int limit;
-  public Series(int limit)
+  public series(int limit)
   {
     this.limit = limit;
   }
