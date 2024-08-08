@@ -10,7 +10,7 @@ class node
         next = null;
     }
 }
-class Stack
+class stack
 {
     node top;
 
