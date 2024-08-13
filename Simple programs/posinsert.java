@@ -58,7 +58,7 @@ class SinglyCircular{
         }while(temp != head);
     }
 }
-class Posinsert 
+class posinsert 
 {
     public static void main(String [] args)
     {
