@@ -69,7 +69,8 @@ class Java_excercise{
       a--;
       if(arr[i]>k)
       a++;
-    swap=Math.min(swap,a);}
+    swap=Math.min(swap,a);
+    }
     System.out.print(swap);
   }
 }
