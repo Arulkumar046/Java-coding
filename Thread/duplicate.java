@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Duplicate {
+public class duplicate {
     public static void main(String[] args){
         Scanner ob=new Scanner(System.in);
         int n=ob.nextInt();
