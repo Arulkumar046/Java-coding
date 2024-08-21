@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Array_List
+public class Array_list
  {
 
     static ArrayList<String> insertFirst(ArrayList<String> list) {
