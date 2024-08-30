@@ -1,5 +1,5 @@
 import java.util.*;
-class Sll
+class SLL
 {
     Node head;
     class Node
