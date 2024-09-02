@@ -1,6 +1,6 @@
 import java.util.Stack;
 import java.util.*;
-public class stack
+public class Stack1
 {
     public static void main(String[] args) 
     {
