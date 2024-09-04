@@ -46,7 +46,7 @@ class SinglyCircular{
    }
 
 }
-class deletion_At_Begin{
+class Deletion_At_Begin{
     public static void main(String args[]){
         SinglyCircular list=new SinglyCircular();
         Scanner ob=new Scanner(System.in);
