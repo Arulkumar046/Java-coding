@@ -1,5 +1,5 @@
 import java.util.*;
-class snake_pattern
+class Snake_pattern
 {
   public static void main(String[]args)
   {
