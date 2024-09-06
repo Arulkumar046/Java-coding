@@ -18,7 +18,7 @@ class sharedres{
         }
     }
 }
-    class pangram{
+    class Pangram{
         public static void main(String[] args) {
             sharedres ob1 = new sharedres();
             Scanner ob = new Scanner(System.in);
