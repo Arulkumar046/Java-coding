@@ -35,9 +35,9 @@ class series implements Runnable
     }
   }
   public static void main(String[] args) {
-    Scanner ob = new Scanner(System.in);
+    Scanner obj = new Scanner(System.in);
     System.out.print("Enter the range of numbers: ");
-    int n = ob.nextInt();
+    int n = obj.nextInt();
     series s = new series(n);
     Thread t1 = new Thread(s);
     t1.start();
