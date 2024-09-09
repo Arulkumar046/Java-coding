@@ -1,6 +1,6 @@
 import java.util.*;
 
-class pascal_SYNC{
+class Pascal_SYNC{
 
     public synchronized static void printPascal(int n) {
         for (int i = 1; i <= n; i++) {
