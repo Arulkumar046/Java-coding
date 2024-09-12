@@ -1,5 +1,5 @@
 class multiplethread{
-    int count=0;
+    int count = 0;
     public synchronized void increase(String name)
     {
         count++;
