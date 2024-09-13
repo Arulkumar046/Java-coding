@@ -1,5 +1,5 @@
 import java.util.*;
-class Time_Esti
+class Time_esti
 {
   public static void main(String[]args)
   {
