@@ -70,7 +70,7 @@ class stack
         }
     }
 }
-class Stack_op
+class Stack_Op
 {
     public static void main(String[]args)
     {
