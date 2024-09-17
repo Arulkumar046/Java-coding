@@ -1,6 +1,6 @@
 import java.util.Stack;
 import java.util.*;
-class Stack_Peek
+class Stack_peek
 {
     public static void main(String[] args) 
     {
