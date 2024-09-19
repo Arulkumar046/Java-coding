@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Rev_string
+class Rev_String
 {
   public static void main(String[] args)
   {
