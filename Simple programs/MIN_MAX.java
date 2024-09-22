@@ -56,7 +56,7 @@ class scl
         System.out.println();
     }
 }
-class MIN_MAX
+class Min_Max
 {
     public static void main(String[] args)
     {
