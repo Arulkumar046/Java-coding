@@ -1,5 +1,5 @@
 import java.util.*;
-class Alt_Power
+class Alt_power
 {
   public static void main(String[]args)
   {
