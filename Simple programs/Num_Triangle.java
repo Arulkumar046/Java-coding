@@ -3,7 +3,7 @@ public class Num_Triangle
 {
     public static void Pattern(int n)
     {
-        int i, j;
+        int i, j ;
         for (i = 1; i <= n; i++) 
         {
             for (j = 1; j <= n - i; j++) {
