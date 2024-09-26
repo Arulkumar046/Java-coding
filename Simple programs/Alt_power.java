@@ -13,7 +13,7 @@ class Alt_power
       {
         System.out.print((int)Math.pow(2,p2)+" ");
         p2++;
-    }
+      }
     else
     {
       System.out.print((int)Math.pow(3,p3)+" ");
