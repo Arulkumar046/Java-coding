@@ -9,7 +9,7 @@ class StringRepeat
         String res=repeatString(s,n);
         System.out.print(res);
     }
-        public static String repeatString(String s,int n)
+        public static String repeatString(String s, int n)
         {
             StringBuilder sb=new StringBuilder();
             for(int i=0;i<n;i++)
