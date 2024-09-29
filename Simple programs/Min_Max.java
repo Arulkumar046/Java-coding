@@ -1,13 +1,15 @@
 import java.util.*;
 
-class Node {
+class Node
+    {
     int data;
     Node next;
 
-    Node(int d) {
+    Node(int d)
+        {
         data = d;
         next = null;
-    }
+        }
 }
 
 class scl
