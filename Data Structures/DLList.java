@@ -10,7 +10,8 @@ class Node
         this.next = null;
     }
 }
-class DLL {
+class DLL
+     {
      Node head;
      Node tail;
     DLL() {
