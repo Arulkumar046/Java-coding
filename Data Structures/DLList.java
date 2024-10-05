@@ -18,7 +18,8 @@ class DLL
         this.head = null;
         this.tail = null;
     }
-    public boolean isEmpty() {
+    public boolean isEmpty()
+          {
         return head == null;
     }
     public void insertFirst(int data) {
