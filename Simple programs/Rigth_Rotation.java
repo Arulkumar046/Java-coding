@@ -1,5 +1,6 @@
 import java.util.*;
-class Rigth_Rotation{
+class Rigth_Rotation
+{
   public static void main(String[] args)
   {
     Scanner ob=new Scanner(System.in);
