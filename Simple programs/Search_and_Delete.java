@@ -12,14 +12,16 @@ class Node
     }
 }
 
-class CircularSinglyLinkedList {
+class CircularSinglyLinkedList
+    {
     Node head;
     Node last;
 
-    CircularSinglyLinkedList() {
+    CircularSinglyLinkedList() 
+        {
         head = null;
         last = null;
-    }
+        }
 
     void insert(int data) {
         Node nn = new Node(data);
