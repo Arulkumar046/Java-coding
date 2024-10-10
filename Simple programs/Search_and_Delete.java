@@ -1,10 +1,12 @@
 import java.util.*;
 
-class Node {
+class Node 
+{
     int data;
     Node next;
 
-    Node(int data) {
+    Node(int data) 
+    {
         this.data = data;
         this.next = null;
     }
