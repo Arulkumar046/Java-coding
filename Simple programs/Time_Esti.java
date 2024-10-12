@@ -12,7 +12,8 @@ class Time_Esti
   else if(weight>=0&& weight<=2000)
   {
     System.out.print("Time Estimated: 25 minutes");
-  }else if(weight>2000 && 4000>weight)
+  }
+  else if(weight>2000 && 4000>weight)
   {
     System.out.print("Time Estimated: 35 minutes");
   }
