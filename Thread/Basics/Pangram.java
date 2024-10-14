@@ -20,8 +20,10 @@ class sharedres
         }
     }
 }
-    class Pangram{
-        public static void main(String[] args) {
+    class Pangram
+    {
+        public static void main(String[] args) 
+        {
             sharedres ob1 = new sharedres();
             Scanner ob = new Scanner(System.in);
             String a = ob.nextLine();
