@@ -1,6 +1,8 @@
 import java.util.Scanner;
-class sharedres{
-    public void pangramcheck(String str){
+class sharedres
+{
+    public void pangramcheck(String str)
+    {
         String values = "abcdefghijklmnopqrstuvwxyz";
 
         values = values.replaceAll("[" + str.toLowerCase() +"]","");
