@@ -4,7 +4,7 @@ class Stack_peek
 {
     public static void main(String[] args) 
     {
-        Stack<Integer> numbers= new Stack<Integer>();
+        Stack<Integer> numbers= new Stack<>();
         numbers.push(20);
         numbers.push(10);
         numbers.push(50);
