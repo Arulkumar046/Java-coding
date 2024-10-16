@@ -27,13 +27,16 @@ public void insertpos(int pos,int val2)
      newnode.next=temp.next;
      temp.next = newnode;   
     }
-public void insertend(int val) {
+public void insertend(int val)
+    {
             Node newnode=new Node(val);
             if( head==null) {
                 newnode.next = newnode;
                 head = newnode;
                 
-            }else {
+            }
+            else
+            {
                 newnode.next = head.next;
                 head.next = newnode;
                 head = newnode;
