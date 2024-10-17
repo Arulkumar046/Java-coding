@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class Array_List
  {
 
-    static ArrayList<String> insertFirst(ArrayList<String> list) {
+    static ArrayList<String> insertFirst(ArrayList<String> list)
+  {
         Scanner sc = new Scanner(System.in);
         System.out.println("Element to add");
         String str = sc.next();
@@ -16,7 +17,8 @@ public class Array_List
         return list;
     }
 
-    static ArrayList<String> reverse(ArrayList<String> list) {
+    static ArrayList<String> reverse(ArrayList<String> list) 
+  {
         ArrayList<String> reversed = new ArrayList<>();
 
         for (int i = (list.size()) - 1; i >= 0; i--) {
