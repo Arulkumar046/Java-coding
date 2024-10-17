@@ -4,12 +4,12 @@ public class Duplicate
     {
       public static void main(String[] args)
        {
-        Scanner ob=new Scanner(System.in);
-        int n=ob.nextInt();
+        Scanner obj=new Scanner(System.in);
+        int n=obj.nextInt();
         int[] arr=new int[n];
         for(int i=0;i<n;i++)
         {
-            arr[i]=ob.nextInt();
+            arr[i]=obj.nextInt();
         }
         try {
             check(arr);
