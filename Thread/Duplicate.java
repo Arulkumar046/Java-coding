@@ -1,7 +1,9 @@
 
 import java.util.Scanner;
-public class Duplicate {
-    public static void main(String[] args){
+public class Duplicate
+    {
+      public static void main(String[] args)
+       {
         Scanner ob=new Scanner(System.in);
         int n=ob.nextInt();
         int[] arr=new int[n];
