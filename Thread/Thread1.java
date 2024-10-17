@@ -1,4 +1,5 @@
-class multiplethread{
+class multiplethread
+{
     int count = 0;
     public synchronized void increase(String name)
     {
@@ -13,7 +14,8 @@ class multiplethread{
         }
     }
 }
-public class Thread1 {
+public class Thread1 
+{
     public static void main(String[] args)
     {
         multiplethread obj=new multiplethread();
