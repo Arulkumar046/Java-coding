@@ -44,11 +44,15 @@ class Java_excercise
 
 //3.Write a program to implement strupr function.
 import java.util.*;
-class Java_excercise{
-  public static void main(String[] args){
+class Java_excercise
+{
+  public static void main(String[] args)
+  {
     Scanner n=new Scanner(System.in);
     String d=n.nextLine();
-    System.out.print(d.toUpperCase());}}
+    System.out.print(d.toUpperCase());
+  }
+}
 
 
 //4.Given number of elements , array and K value, Find the minimum number of Swaps required to get elements less then K and  greater elements on the right  side.
