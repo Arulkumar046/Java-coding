@@ -23,7 +23,8 @@ class Java_excercise
 
 //2.Given two strings, write a code to compare two strings to check and say equal or not. 
 import java.util.*;
-class Java_excercise{
+class Java_excercise
+{
   public static void main(String[] args)
   {
     Scanner sc=new Scanner(System.in);
