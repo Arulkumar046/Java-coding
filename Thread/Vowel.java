@@ -1,5 +1,6 @@
 import java.util.*;
-public class Vowel {
+public class Vowel
+    {
     public static void main(String[] args)
     {
         Scanner ob=new Scanner(System.in);
@@ -12,9 +13,10 @@ public class Vowel {
         {
             System.out.print("String does not contain vowels");
         }
-        finally{
+        finally
+            {
             ob.close();
-        }
+            }
 
     }
     static void check(String s) throws Exception{
