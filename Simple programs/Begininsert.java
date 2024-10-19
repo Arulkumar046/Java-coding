@@ -5,17 +5,21 @@ class Node
     int data;
     Node next;
 
-    Node(int data) {
+    Node(int data)
+    {
         this.data = data;
         this.next = null;
     }
 }
-class SinglyCircular{
+class SinglyCircular
+{
     Node head;
-    SinglyCircular() {
+    SinglyCircular() 
+    {
         head = null;
     }
-    void insertbeg(int data) {
+    void insertbeg(int data)
+    {
         Node nn = new Node(data);
         if (head == null) {
             nn.next=nn;
