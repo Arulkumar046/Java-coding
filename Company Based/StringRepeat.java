@@ -12,7 +12,7 @@ class StringRepeat
         public static String repeatString(String s, int n)
         {
             StringBuilder sb=new StringBuilder();
-            for(int i=0;i<n;i++)
+            for(int i=0;i<n;i+=1)
             {
                 sb.append(s);
             }
