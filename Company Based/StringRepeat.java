@@ -1,7 +1,7 @@
 import java.util.*;
 class StringRepeat
 {
-    public static void main(String[]args)
+    public static void main(String[] args)
     {
         Scanner obj=new Scanner(System.in);
         int n=obj.nextInt();
@@ -12,7 +12,7 @@ class StringRepeat
         public static String repeatString(String s, int n)
         {
             StringBuilder sb=new StringBuilder();
-            for(int i=0;i<n;i+=1)
+            for(int i=0;i<n;i++)
             {
                 sb.append(s);
             }
