@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class charCounter {
- public static void main(String[] args){
+public class charCounter 
+{
+ public static void main(String[] args)
+ {
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
 
@@ -11,7 +13,8 @@ public class charCounter {
 
     System.out.print("Total words = " + word + "\n");
 
-    for(int j=0; j<word; j++){
+    for(int j=0; j<word; j++)
+    {
         cap =0;
         small= 0;
         special=0;
