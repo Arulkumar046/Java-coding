@@ -20,7 +20,8 @@ public class charCounter
         special=0;
         number=0;
         System.out.printf("Word = %s\n",st[j]);
-    for(int i=0; i<st[j].length(); i++){
+    for(int i=0; i<st[j].length(); i++)
+    {
     char c = st[j].charAt(i);
 
       if(c >= 'A' && c <= 'Z')
