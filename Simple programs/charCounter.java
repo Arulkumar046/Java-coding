@@ -13,7 +13,7 @@ public class charCounter
 
     System.out.print("Total words = " + word + "\n");
 
-    for(int j=0; j<word; j++)
+    for(int j=0; j<word; j+=1)
     {
         cap =0;
         small= 0;
