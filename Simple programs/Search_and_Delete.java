@@ -85,17 +85,19 @@ class CircularSinglyLinkedList
 }
 
 public class Search_and_Delete {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner ob = new Scanner(System.in);
         CircularSinglyLinkedList s = new CircularSinglyLinkedList();
         int val;
         
         System.out.println("Enter elements to insert into the list (enter -1 to stop):");
-        while (true) {
+        while (true)
+            {
             val = ob.nextInt();
             if (val == -1) break;
             s.insert(val);
-        }
+            }
 
         System.out.println("Enter the element to delete:");
         int ele = ob.nextInt();
