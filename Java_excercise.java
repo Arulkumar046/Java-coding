@@ -58,11 +58,12 @@ class Java_excercise
 //4.Given number of elements , array and K value, Find the minimum number of Swaps required to get elements less then K and  greater elements on the right  side.
 import java.util.*;
 class Java_excercise{
-  public static void main(String[] args){
+  public static void main(String[] args)
+  {
     Scanner n=new Scanner(System.in);
-  int h=n.nextInt();
-  int arr[]=new int[h];
-  for(int i=0;i<h;i++){
+    int h=n.nextInt();
+    int arr[]=new int[h];
+    for(int i=0;i<h;i++){
     arr[i]=n.nextInt();
   }
   int k=n.nextInt();
