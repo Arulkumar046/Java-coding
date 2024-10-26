@@ -48,7 +48,7 @@ class Java_excercise
 {
   public static void main(String[] args)
   {
-    Scanner n=new Scanner(System.in);
+    Scanner obj=new Scanner(System.in);
     String d=n.nextLine();
     System.out.print(d.toUpperCase());
   }
