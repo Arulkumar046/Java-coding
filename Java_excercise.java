@@ -49,7 +49,7 @@ class Java_excercise
   public static void main(String[] args)
   {
     Scanner obj=new Scanner(System.in);
-    String d=n.nextLine();
+    String d=obj.nextLine();
     System.out.print(d.toUpperCase());
   }
 }
