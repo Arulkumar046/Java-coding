@@ -10,7 +10,7 @@ class Post_To_Infix
     {
         Stack<String> stack = new Stack<>();
 
-        for(int i = 0; i < a.length(); i++)
+        for(int i = 0; i < a.length(); i+=1)
         {
             char c=a.charAt(i);
         
