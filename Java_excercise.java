@@ -63,7 +63,7 @@ class Java_excercise{
     Scanner n=new Scanner(System.in);
     int h=n.nextInt();
     int arr[]=new int[h];
-    for(int i=0;i<h;i++){
+    for(int i=0;i<h;i+=1){
     arr[i]=n.nextInt();
   }
   int k=n.nextInt();
