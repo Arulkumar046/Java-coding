@@ -76,7 +76,7 @@ class Java_excercise
     count++;
   }
   int a=0;
-  for(int i=0;i<count;i++)
+  for(int i=0;i<count;i+=1)
   {
     if(arr[i]>k)
     a++;
