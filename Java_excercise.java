@@ -82,7 +82,7 @@ class Java_excercise
     a++;
   }
     int swap=a;
-    for(int i=0;i<h;i++){
+    for(int i=0;i<h;i+=1){
       if(arr[i]>k)
       a--;
       if(arr[i]>k)
