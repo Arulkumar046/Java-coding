@@ -96,7 +96,8 @@ class Java_excercise
 
 //5.Write a program to check whether the given array of elements are in a Monotonic order or Not.
 import java.util.*;
-class Java_excercise{
+class Java_excercise
+{
   public static void main(String[] args){
     Scanner n=new Scanner(System.in);
     int h=n.nextInt();
