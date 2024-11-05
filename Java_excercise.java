@@ -70,7 +70,7 @@ class Java_excercise
     }
   int k=n.nextInt();
   int count=0;
-  for(int i=0;i<h;i+=1)
+  for(int i=0;i<h;i++)
   {
     if(arr[i]<=k)
     count++;
