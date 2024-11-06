@@ -15,7 +15,7 @@ public class charCounter
 
     for(int j=0; j<word; j+=1)
     {
-        cap =0;
+        cap = 0;
         small= 0;
         special=0;
         number=0;
