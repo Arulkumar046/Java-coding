@@ -16,7 +16,7 @@ public class charCounter
     for(int j=0; j<word; j+=1)
     {
         cap = 0;
-        small= 0;
+        small = 0;
         special=0;
         number=0;
         System.out.printf("Word = %s\n",st[j]);
