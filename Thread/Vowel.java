@@ -21,7 +21,7 @@ public class Vowel
     }
     static void check(String s) throws Exception{
         int a=0;
-        for(int i=0; i<s.length();i+=1){
+        for(int i=0; i<s.length();i++){
             char b=s.charAt(i);
             if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u' || b=='A' || b=='E' || b=='I' || b=='O' || b=='U')
             {
