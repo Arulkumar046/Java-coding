@@ -17,7 +17,7 @@ class Stack_array
         
         
         System.out.println("Elements in the array :");
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i < n; i+=1)
         {
             System.out.printf("%d ",arr[i]);
         }
