@@ -80,7 +80,8 @@ class Stack_op
         while(val!=-1)
         {
             val=ob.nextInt();
-            if(val==-1)break;
+            if(val==-1)
+            break;
             s.push(val);
         }
         System.out.println("Stack elements :");
