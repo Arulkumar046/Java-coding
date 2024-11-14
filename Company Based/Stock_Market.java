@@ -11,7 +11,8 @@ class Stock_Market {
         int[] arr = new int[Product];
         
         System.out.println("Enter the Stock prices:");
-        for (int i = 0; i < Product; i++) {
+        for (int i = 0; i < Product; i++)
+        {
             arr[i] = obj.nextInt();
         }
         
