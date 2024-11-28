@@ -19,7 +19,8 @@ public class Vowel
             }
 
     }
-    static void check(String s) throws Exception{
+    static void check(String s) throws Exception
+        {
         int a=0;
         for(int i=0; i<s.length();i++){
             char b=s.charAt(i);
