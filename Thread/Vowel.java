@@ -3,8 +3,8 @@ public class Vowel
     {
     public static void main(String[] args)
     {
-        Scanner ob=new Scanner(System.in);
-        String s=ob.nextLine();
+        Scanner obj=new Scanner(System.in);
+        String s=obj.nextLine();
         try{
             check(s);
             System.out.print("String contain vowels");
@@ -15,7 +15,7 @@ public class Vowel
         }
         finally
             {
-            ob.close();
+            obj.close();
             }
 
     }
