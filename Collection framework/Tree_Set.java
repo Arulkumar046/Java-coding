@@ -12,7 +12,7 @@ class Tree_Set
         Numbers.add(10);
         System.out.println("TreeSet: " + Numbers);
 
-        TreeSet<Integer> number = new TreeSet<>();
+        TreeSet<Integer> number = new TreeSet<Integer>();
         number.add(1);
         number.add(3);
         number.add(5);
