@@ -5,7 +5,8 @@ public class Vowel
     {
         Scanner obj=new Scanner(System.in);
         String s=obj.nextLine();
-        try{
+        try
+            {
             check(s);
             System.out.print("String contain vowels");
         }
