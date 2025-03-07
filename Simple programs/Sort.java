@@ -17,7 +17,8 @@ class scl
     Node head;
     Node last;
 
-    scl() {
+    scl()
+    {
         head = null;
         last = null;
     }
